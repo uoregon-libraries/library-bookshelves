@@ -17,7 +17,7 @@ class Null_DB_Cache implements Shelf_Call_Number_Cache_Interface {
   private $reader;
   /** @var SQL_Logger $logger */
   private $logger;
-  private $shelfTable = 'shelves_os';
+  private $shelfTable = 'shelves';
   private $buildingTable = 'buildings';
   private $bid;
 
