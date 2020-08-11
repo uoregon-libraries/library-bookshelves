@@ -78,7 +78,7 @@ For now, out of the box, they're a little trickier to swap out, but certainly no
 
 ## Parse Strategy
 The built in LCCN parser is based off [libraryhackers' library-callnumber-lc](https://github.com/libraryhackers/library-callnumber-lc) python parser.
-Attribution and license information can be found in [Regex_Call_Number_Parser.php](../master/Classes/Parsers/Regex_Call_Number_Parser.php).
+Attribution and license information can be found in [Regex_Call_Number_Parser.php](../main/Classes/Parsers/Regex_Call_Number_Parser.php).
 
 A pseudo-magical regex breaks the LCCN into it's parts based on Library Congress' definition.
 The parts are then used to normalize the LCCN. Normalized LCCNs are trivially sortable and comparable using lexicographical ordering.
